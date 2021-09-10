@@ -26,4 +26,4 @@ The endpoint returns a 512 dimension dense vector, which can be used when implem
 
 ```json
 {"vector":"[-0.01935427635908127, ....]"}
-```# sentence-encoder-lambda
+```
