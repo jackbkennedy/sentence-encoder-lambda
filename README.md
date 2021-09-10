@@ -5,13 +5,13 @@
 1. Build Docker container
 
 ```bash
-docker build --tag text-similarity .
+docker build --tag sentence-encoder-lambda .
 ```
 
 2. Run container
 
 ```bash
-docker run -p 9000:8080  text-similarity:latest 
+docker run -p 9000:8080  sentence-encoder-lambda:latest 
 ```
 
 3. Make cURL request
