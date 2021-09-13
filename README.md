@@ -32,6 +32,6 @@ The endpoint returns a 512 dimension dense vector, which can be used when implem
 
 Resources
 
-1. Tensorflow Hub - [Universal Sentence Encoder Lambda](https://tfhub.dev/google/universal-sentence-encoder/4)
+1. Tensorflow Hub - [Universal Sentence Encoder](https://tfhub.dev/google/universal-sentence-encoder/4)
 2. Lambda Function Handelers - [Python](https://docs.aws.amazon.com/lambda/latest/dg/python-handler.html)
 3. Testing Locally - [Lambda Containers](https://docs.aws.amazon.com/lambda/latest/dg/images-test.html)
