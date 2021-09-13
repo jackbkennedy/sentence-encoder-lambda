@@ -14,7 +14,7 @@ docker build --tag sentence-encoder-lambda .
 docker run -p 9000:8080  sentence-encoder-lambda:latest 
 ```
 
-3. Make cURL request
+3. Make a cURL request
 
 ```curl
 curl -XPOST "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{"text":["are you open?"]}'
@@ -33,5 +33,5 @@ The endpoint returns a 512 dimension dense vector, which can be used when implem
 Resources
 
 1. Tensorflow Hub - [Universal Sentence Encoder](https://tfhub.dev/google/universal-sentence-encoder/4)
-2. Lambda Function Handelers - [Python](https://docs.aws.amazon.com/lambda/latest/dg/python-handler.html)
+2. Lambda Function Handlers - [Python](https://docs.aws.amazon.com/lambda/latest/dg/python-handler.html)
 3. Testing Locally - [Lambda Containers](https://docs.aws.amazon.com/lambda/latest/dg/images-test.html)
