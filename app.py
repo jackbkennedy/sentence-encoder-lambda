@@ -2,7 +2,7 @@ import numpy as np
 import tensorflow_hub as hub
 import tensorflow as tf
 
-# load universal sentence encoder modal
+# load universal sentence encoder model
 embed = hub.KerasLayer("models/")
 
 def lambda_handler(event, context):
