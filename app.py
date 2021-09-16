@@ -11,4 +11,4 @@ def lambda_handler(event, context):
     # convert tensor to np array
     a = np.array(embeddings)
     b = a.tolist()
-    return {"vector": str(b[0])}
+    return {"vector": b[0]}
